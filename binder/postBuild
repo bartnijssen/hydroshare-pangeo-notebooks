@@ -12,4 +12,6 @@ export FC_ENV="gfortran-6-docker"
 make -C build/ -f Makefile
 cd ../
 
+mkdir work
+
 #EOF
