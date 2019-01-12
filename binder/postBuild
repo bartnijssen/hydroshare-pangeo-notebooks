@@ -5,7 +5,7 @@ export FC="gfortran"
 export FC_EXE="gfortran"
 export FC_ENV="gfortran-6-docker"
 
-git clone git@github.com:NCAR/summa.git@sopron_2018
+git clone https://github.com/bartnijssen/summa.git@sopron_2018
 cd summa
 make -C build/ -f Makefile
 cd ../
