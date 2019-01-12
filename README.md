@@ -20,14 +20,14 @@ http://swcarpentry.github.io/python-novice-inflammation
 
 The directory
 
-/home/jovyan/examples/swc
+/home/jovyan/swc
 
 contains the files for this tutorial, so everything is already pre-installed.
 
 The files needed for the various homework assignments will be in the directories
 
-/home/jovyan/examples/homework_0
-/home/jovyan/examples/homework_1
-/home/jovyan/examples/homework_2
+/home/jovyan/homework_0
+/home/jovyan/homework_1
+/home/jovyan/homework_2
 
 These directories will become available as the course progresses.
