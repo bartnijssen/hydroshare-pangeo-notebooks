@@ -1,5 +1,6 @@
-graphviz
 make
 libnetcdff-dev
 liblapack-dev
 gfortran
+software-properties-common
+ca-certificates
