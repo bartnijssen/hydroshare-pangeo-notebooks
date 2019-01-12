@@ -1,0 +1,5 @@
+graphviz
+make
+libnetcdff-dev
+liblapack-dev
+gfortran
