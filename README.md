@@ -1,33 +1,11 @@
-This directory contains the files that will be used to run the lab
-exercises for the CUAHSI Virtual University Snow Hydrology course.
+This directory a series of Jupyter notebooks that you can use to get familiar with running SUMMA from within Jupyter notebooks using pySUMMA.
 
-Note that you should not save any files in this examples directory,
-as it will get overwritten when we release new files for later homework
-assignments. Instead, you will want to save all your files in the directory
+Note that if you want to preserve the changes that you make in these notebooks, then you should save them somewhere other than in the `demo` directory in your directory tree. If not, the files may be overwritten when you download them again or when you pull down the latest changes from the github repository from where you obtained these files originally.
 
-/home/jovyan/work
-
-(note that "jovyan" is your username in your own cloud instance)
-
-So, if you do open a notebook or any other file in the examples directory
-and you make changes that you want to preserve, make sure you save a copy
-in /home/jovyan/work.
-
-If you are new to python and want to practice, then we recommend that you go
-through the software carpentry python tutorial that is discussed
+If you are new to python and want to practice, then extensive help exists online. For example, take a look at the software carpentry python tutorial that is discussed
 on the software carpentry web site at:
 http://swcarpentry.github.io/python-novice-inflammation
 
-The directory
+Similarly, if you are unfamiliar with the amazing power of Jupyter notebooks, you can start here: https://jupyter.org/
 
-/home/jovyan/swc
-
-contains the files for this tutorial, so everything is already pre-installed.
-
-The files needed for the various homework assignments will be in the directories
-
-/home/jovyan/homework_0
-/home/jovyan/homework_1
-/home/jovyan/homework_2
-
-These directories will become available as the course progresses.
+The notebooks in the `demo` directory assume that you already have a SUMMA executable installed. They are optimized for running SUMMA in the cloud-based computing environment provided by the [Pangeo](http://pangeo.io) project at `https://hydro.pangeo.io`. You can also use them to run SUMMA locally (i.e. on your own machine) or elsewhere, but you will undoubtedly need to make some modifications (which I will leave as an exercise for the reader).
